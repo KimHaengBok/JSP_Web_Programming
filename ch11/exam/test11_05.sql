@@ -1,0 +1,1 @@
+CREATE table if not exists department(name varchar(20), passwd varchar(20), dept varchar(50), signuptime TIMESTAMP DEFAULT CURRENT_TIMESTAMP, PRIMARY KEY(name));
